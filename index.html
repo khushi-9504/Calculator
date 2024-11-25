@@ -4,10 +4,12 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="calc.css">
 </head>
-<body>
-    <h1>Calculator</h1><br/><br/>
+<body  style="background-color: rgb(12,25,56);">
+    <div id="wrapper">
 
-    <div id="calculator">
+        <h1 style="color: red;">Calculator</h1>
+
+    <div id="calculator" center>
         <input type="text" id="display" readonly>
         <div class="button_container">
             <button class="button" onclick="currentDisplay = ''; document.querySelector('#display').value = currentDisplay;">C</button>
@@ -48,7 +50,7 @@
 
         </div>  
     </div>
-    
+     </div>
 
     <script>
         let currentDisplay = '';
