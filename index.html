@@ -9,7 +9,7 @@
 
         <h1 style="color: red;">Calculator</h1>
 
-    <div id="calculator" center>
+    <div id="calculator">
         <input type="text" id="display" readonly>
         <div class="button_container">
             <button class="button" onclick="currentDisplay = ''; document.querySelector('#display').value = currentDisplay;">C</button>
@@ -39,7 +39,7 @@
             <button class="button" onclick="currentDisplay += '/'; document.querySelector('#display').value = currentDisplay;">/</button>
 
             <button class="button" onclick="
-            currentDisplay = eval(currentDisplay);; 
+            currentDisplay = eval(currentDisplay);
             document.querySelector('#display').value = currentDisplay;">=</button>
 
             <button class="button" onclick="currentDisplay += '9'; document.querySelector('#display').value = currentDisplay;">9</button>
